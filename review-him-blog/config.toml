@@ -1,0 +1,6 @@
+baseURL = 'https://review-him.github.io/'
+languageCode = 'en-us'
+title = 'Review Him Blog'
+theme = 'monday-theme'
+
+

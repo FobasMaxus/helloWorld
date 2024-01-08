@@ -1,0 +1,14 @@
+[submodule "review-him-blog/themes/monday-theme"]
+	path = review-him-blog/themes/monday-theme
+	url = https://github.com/cyevgeniy/monday-theme
+[submodule "review-him-blog/review-him.github.io"]
+	path = review-him-blog/review-him.github.io
+	url = git@github.com-review-him:review-him/review-him.github.io.git
+	branch = main
+[submodule "review-him-blog/public"]
+	path = review-him-blog/public
+	url = git@github.com-review-him:review-him/review-him.github.io.git
+	branch = main
+[submodule "review-him-blog/themes/PaperMod"]
+	path = review-him-blog/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
