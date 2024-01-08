@@ -1,10 +1,7 @@
 ---
-title: "First Post"
-date: 2024-01-05T22:00:33+07:00
+title: "Eigenvalues & Eigenvectors"
+date: 2024-01-05T22:00:00
 ---
-
-# Источники
-
 > [# Eigenvalues & Eigenvectors : Data Science Basics](https://www.youtube.com/watch?v=glaiP222JWA)
 
 # Что такое eigenvalues и eigenvectors
@@ -33,16 +30,16 @@ $$
 Отсюда получается следующее решение:
 $$
 det(\begin{pmatrix}
-    0 & 1 \\
+    0 & 1 \newline
     -2 & -3
     \end{pmatrix} - 
     \begin{pmatrix}
-    \lambda & 0 \\
+    \lambda & 0 \newline
     0 & \lambda
     \end{pmatrix})
     = 
     det(\begin{pmatrix}
-    -\lambda & 1 \\
+    -\lambda & 1 \newline
     -2 & -3-\lambda
     \end{pmatrix}) = 0
 $$
@@ -54,26 +51,28 @@ $\lambda_1 = -2$, $\lambda_2 = -1$
 Получается мы нашли собственные значения, то есть Eigenvalues
 
 ## Как найти Eigenvectors
+
 Найдем собственный вектор для $\lambda_2 = -1$
+
 Мы знаем, что $Ax = \lambda x$
 Значит:
 $$
 \begin{pmatrix}
-0 & 1 \\
+0 & 1 \newline
 -2 & -3
-\end{pmatrix}
-\begin{pmatrix}
-x_1 \\ x_2
-\end{pmatrix}
-=
-\begin{pmatrix}
--x_1 \\ -x_2
+\end{pmatrix} \begin{pmatrix}
+x_1 \newline 
+x_2
+\end{pmatrix} = \begin{pmatrix}
+-x_1 \newline
+-x_2
 \end{pmatrix}
 $$
-Теперь перемножаем матрицы и и получаем систему уравнений
+
+Теперь перемножаем матрицы и и получаем систему уравнений:
 $$
 \begin{cases}
-x_1 = -x_2, \\
+x_1 = -x_2, \newline
 -2x_1 -3x_2 = -x_2
 \end{cases}
 $$
