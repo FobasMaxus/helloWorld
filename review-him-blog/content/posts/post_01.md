@@ -17,7 +17,7 @@ $Ax = \lambda x$
 Предположим у нас есть квадратная матрица A, где 
 $$
 A = \begin{pmatrix}
-    0 & 1 \\
+    0 & 1 \newline
     -2 & -3
     \end{pmatrix}
 $$
