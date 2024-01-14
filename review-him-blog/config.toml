@@ -17,3 +17,7 @@ theme = 'monday-theme'
     url = "/about/"
     weight = 3
 
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
+
