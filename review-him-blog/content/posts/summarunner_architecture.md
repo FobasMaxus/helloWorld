@@ -101,12 +101,12 @@ bp = 0
 
 Посмотрим на формулу, ради которой производились все предыдущие вычисления:
 
-$P(y_j=1|h_j,s_j,d) = \sigma(W_c h_j \text{ \# content } \newline$
-$+ h_j^T W_s d \text{ \# salience } \newline$
-$- h_j^T W_r tanh(s_j) \text{ \# novelty } \newline$
-$+ W_{ap} p_j^a \text{ \# abs. pos. imp. } \newline$
-$+ W_{rp} p_j^r \text{ \# rel. pos. imp. } \newline$
-$+ bp) \text{ \# bias term }$
+$P(y_j=1|h_j,s_j,d) = \sigma(W_c h_j \text{ -> content } \newline$
+$+ h_j^T W_s d \text{ -> salience } \newline$
+$- h_j^T W_r tanh(s_j) \text{ -> novelty } \newline$
+$+ W_{ap} p_j^a \text{ -> abs. pos. imp. } \newline$
+$+ W_{rp} p_j^r \text{ -> rel. pos. imp. } \newline$
+$+ bp) \text{ -> bias term }$
 
 Как видим, формула представляет функцию sigmoid'ы, которая берется от многочлена, каждый одночлен которого вносит в формулу свой смысл.
 
