@@ -35,6 +35,9 @@ git add .
 git commit -m "$commit_msg"
 echo "Git added to commit and commited your build files"
 
+git push
+echo "Git released your changes!"
+
 
 
 
